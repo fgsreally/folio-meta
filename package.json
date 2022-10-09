@@ -1,0 +1,28 @@
+{
+  "name": "folio-meta",
+  "version": "0.0.0",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsup",
+    "test:unit": "vitest "
+  },
+  "dependencies": {
+    "three": "^0.144.0",
+    "tweakpane": "^3.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.56",
+    "tsup": "^6.2.3",
+    "@types/three": "^0.144.0",
+    "npm-run-all": "^4.1.5",
+    "reflect-metadata": "^0.1.13",
+    "typescript": "~4.7.4",
+    "vitest": "^0.23.0"
+  }
+}
